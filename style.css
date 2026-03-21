@@ -1,0 +1,252 @@
+ 
+/* Fixed header styles */
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+        z-index: 1000;
+        padding: 25px 50px;
+    }
+
+/*logo*/
+header img {
+    height: 25px;
+     position: fixed;
+}
+/* Navigation styles */
+nav ul {
+    position: fixed;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    top:0px;
+    right: 0px;
+    }
+    /* Hero section styles */
+   section#hero {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    bottom: 100px;
+   }
+    section#hero h2 {
+        font-size: 40px;
+        align-items: center;
+    }
+    section#hero p {
+        font-size: 20px;
+        align-items: right;
+    }
+    section#hero div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Each Stat */
+section#hero div p {
+    margin: 10px 20px;
+    font-size: 18px;
+}
+
+/* Numbers Highlight */
+section#hero strong {
+    font-size: 22px;
+    display: block;
+}
+
+/* Button Style */
+section a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    align-items: center;
+}
+/* About section styles */
+section#about {
+    padding: 50px 20px;
+    text-align: center;
+     background-color: lightgray;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+     bottom: 100px;
+}
+section#about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+section#services {
+    padding: 50px 20px;
+    text-align: center;
+     background-color: lightblue;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    bottom: 100px;
+}
+section#services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+section#services ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section#services ul li {
+    background-color: lightgray;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+section#services ul li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+section#services ul li p {
+    font-size: 16px;
+}
+section#projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+section#projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+section#projects ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section#projects ul li {
+    background-color: lightgray;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+section#projects ul li h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+section#projects ul li p {
+    font-size: 16px;
+}
+
+section#clients {
+    padding: 50px 20px;
+    text-align: center;
+     background-color: lightgray;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+     bottom: 100px;
+}
+section#clients h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+section#clients ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section#clients ul li {
+    background-color: lightblue;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+section#contact {
+    background-color: lightgray;
+    padding: 50px 20px;
+    text-align: center;
+}
+section#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+section#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+section#contact ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+section#contact ul li {
+    margin-bottom: 10px;
+}
+section#contact ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+section#contact ul li a:hover {
+    text-decoration: underline;
+}
+/* Footer styles */
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer ul label {
+    font-weight: bold;
+}
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+footer ul a:hover {
+    text-decoration: underline;
+}
